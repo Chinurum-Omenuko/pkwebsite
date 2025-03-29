@@ -1,0 +1,27 @@
+#modal{
+    width: 50vw;
+    height: 50vh;
+
+    background-color: white;
+
+    position: fixed;
+
+    top: calc(50% - 25vh);
+    left: calc(50% - 25vw);
+
+    display: block;
+
+
+}
+
+
+.closebtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 8px 12px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

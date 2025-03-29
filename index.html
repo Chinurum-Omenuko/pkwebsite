@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pithonkids - Learn Coding, Maths & Web Development</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="feature.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="modal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Jura:wght@300..700&family=Sarala:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bahiana&family=Roboto+Condensed:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#features">About</a></li>
+      </ul>
+      <div class="logo">
+        <h2>Pithonkids</h2>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Courses</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+
+
+    
+    <section class="hero">
+      <h1>Get your kids learning...<br />
+      <div class="topics">
+         <h1 id="coding">CODING,</h1> 
+         <h1 id="maths">MATHS</h1> 
+         <h1>AND</h1> 
+         <h1 id="wd">WEB DEVELOPMENT</h1>
+      </div>
+
+      <button id="register">Register Now</button>
+    </section>
+
+    <section id="features">
+      <div class="feature-box">
+        <div class="feature-content">
+          
+          <div class="feature-header">
+            <h2>IOO% Online Personal Classes</h2>
+          </div>
+          
+          <p>
+            Ready to learn from the comfort of your couch? Our online personal
+            classes bring world-class education right to your living room. Dive
+            into engaging sessions with our awesome tutors, making every lesson
+            a fun-filled adventure!
+          </p>
+        </div>
+        <div class="feature-img">
+          <div class="img-container">
+            <img src="./images/Online-Learning.png" alt="Our Story Faces" />
+          </div>
+        </div>
+      </div>
+    
+      <div class="feature-box">
+        <div class="feature-img">
+          <div class="img-container">
+            <img src="./images/parent-kid.png" alt="Expert Tutors" />
+          </div>
+        </div>
+        <div class="feature-content tutor">
+
+          <div class="feature-header">
+
+            <h2>Expert Tutors</h2>
+          </div>
+          <p>
+            Our skilled and passionate tutors who are both experienced in their
+            respective fields and have years of practice of the subjects. They
+            are here to guide you through every step of your learning journey
+            with personalized attention and learning pace.
+          </p>
+        </div>
+      </div>
+    
+      <div class="feature-box">
+        <div class="feature-content">
+          <div class="feature-header">
+
+            <h2>Fun & Interactive Lessons</h2>
+          </div>
+          <p>
+            Engage in our interactive lessons designed to make learning
+            enjoyable and memorable. Experience a vibrant educational
+            environment that caters to your curiosity and enthusiasm for
+            learning.
+          </p>
+        </div>
+        <div class="feature-img">
+          <div class="img-container">
+            <img src="./images/online.png" alt="Fun & Interactive Lessons" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class=""></section>
+
+    <section class="info-section">
+
+      <h2 class="courses-header">Check out our Classes!</h2>
+
+      <div class="info-box yellow">
+        <h2>Math Tutoring classes</h2>
+
+        <div class="box-content">
+          <p>Our math tutoring classes offer a unique opportunity for personalized and interactive learning. Experience a tailored educational plan that caters to your specific needs and goals, all facilitated by our dedicated tutor to helping you succeed.</p>
+
+        </div>
+        
+        
+        
+      </div>
+
+      <div class="info-box blue">
+        <h2>Coding Tutoring Classes</h2>
+
+        <div class="box-content">
+          <p>Join our Python programming and website development classes. Focused sessions tailored to your learning pace, guided by expert tutors dedicated to your success.</p>
+          
+        </div>
+        
+        
+        
+      </div>
+    </section>
+
+    <section id="contact-section">
+      <h2>Shoot us a message to register!</h2>
+      <form class="contact-form" id="contactForm" method="post">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Name*" required>
+
+        </div>
+        
+        <div class="form-group">
+          <input type="email" 
+                  name="email" 
+                  placeholder="Email*" 
+                  required 
+                  title="Please enter a valid email address">
+        </div>
+        <div class="form-group">
+          <input type="tel" 
+                  name="phone" 
+                  placeholder="Phone Number*" 
+                  required 
+                  pattern="[0-9]{10}"
+                  title="Please enter a valid 10-digit phone number">
+        </div>
+        <div class="form-group">
+          <textarea name="message" 
+                    placeholder="Your Message" 
+                    required 
+                    minlength="10"
+                    title="Please enter at least 10 characters"></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-column">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+        </div>
+
+        <div class="footer-column">
+          <a href="#">Courses</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="footer-social">
+          <p>Check us out on social</p>
+          <div class="social-icons">
+            <a href="#"><img src="./images/icons8-tiktok.svg" alt="TikTok" /></a>
+            <a href="#"><img src="./images/icons8-instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="./images/icons8-twitter-bird.svg" alt="Twitter" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="./send_mail.js"></script>
+  </body>
+</html>
