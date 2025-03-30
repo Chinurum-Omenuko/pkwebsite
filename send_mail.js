@@ -18,7 +18,7 @@ const errorHandler = async (response) => {
 
 const sendFormData = async (formJson) => {
   try {
-    const response = await fetch('https://pkbe-994768609233.us-central1.run.app', {
+    const response = await fetch('https://pkbe-994768609233.us-central1.run.app/api/send-mail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
