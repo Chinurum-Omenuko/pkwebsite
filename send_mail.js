@@ -18,7 +18,7 @@ const errorHandler = async (response) => {
 
 const sendFormData = async (formJson) => {
   try {
-    const response = await fetch('https://pithonkids-994768609233.us-central1.run.app/api/send-mail', {
+    const response = await fetch('https://mailjet-api-280673911842.us-central1.run.app/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
